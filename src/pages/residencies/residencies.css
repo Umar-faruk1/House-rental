@@ -1,0 +1,36 @@
+.residencies-section{
+  margin-top: 7rem;
+  place-items: center;
+  margin:  7rem;
+  
+}
+.residencies-section h2{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+.residency-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.residency-image img{
+  cursor: pointer;
+  height: 20rem;
+}
+.residency-content h5{
+  margin-bottom: 15px;
+}
+ .description{
+  margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .residency-list{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
